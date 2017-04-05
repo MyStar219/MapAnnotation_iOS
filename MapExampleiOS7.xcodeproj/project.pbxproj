@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D05ED3B019667B1300D9C975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ED3AF19667B1300D9C975 /* Foundation.framework */; };
+		D05ED3B219667B1300D9C975 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ED3B119667B1300D9C975 /* CoreGraphics.framework */; };
+		D05ED3B419667B1300D9C975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ED3B319667B1300D9C975 /* UIKit.framework */; };
+		D05ED3BA19667B1300D9C975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05ED3B819667B1300D9C975 /* InfoPlist.strings */; };
+		D05ED3BC19667B1300D9C975 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D05ED3BB19667B1300D9C975 /* main.m */; };
+		D05ED3C019667B1300D9C975 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D05ED3BF19667B1300D9C975 /* AppDelegate.m */; };
+		D05ED3C319667B1300D9C975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05ED3C119667B1300D9C975 /* Main.storyboard */; };
+		D05ED3C819667B1300D9C975 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D05ED3C719667B1300D9C975 /* Images.xcassets */; };
+		D05ED3CF19667B1300D9C975 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ED3CE19667B1300D9C975 /* XCTest.framework */; };
+		D05ED3D019667B1300D9C975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ED3AF19667B1300D9C975 /* Foundation.framework */; };
+		D05ED3D119667B1300D9C975 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ED3B319667B1300D9C975 /* UIKit.framework */; };
+		D05ED3D919667B1300D9C975 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D05ED3D719667B1300D9C975 /* InfoPlist.strings */; };
+		D05ED3DB19667B1300D9C975 /* MapExampleiOS7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D05ED3DA19667B1300D9C975 /* MapExampleiOS7Tests.m */; };
+		D05ED3F11966831F00D9C975 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D05ED3F01966831F00D9C975 /* MapViewController.m */; };
+		D05ED3F31966835600D9C975 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D05ED3F21966835600D9C975 /* MapKit.framework */; };
+		D05ED3F91966AD1D00D9C975 /* mapannotation.png in Resources */ = {isa = PBXBuildFile; fileRef = D05ED3F81966AD1D00D9C975 /* mapannotation.png */; };
+		D05ED3FC1966AF1500D9C975 /* CustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D05ED3FB1966AF1500D9C975 /* CustomAnnotation.m */; };
+		D05ED3FE1966BCF800D9C975 /* mapannotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D05ED3FD1966BCF800D9C975 /* mapannotation@2x.png */; };
+		D09EBD1A196AAD7700D97365 /* PlaceDetailViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09EBD19196AAD7700D97365 /* PlaceDetailViewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D05ED3D219667B1300D9C975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D05ED3A419667B1300D9C975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D05ED3AB19667B1300D9C975;
+			remoteInfo = MapExampleiOS7;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D05ED3AC19667B1300D9C975 /* MapExampleiOS7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapExampleiOS7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05ED3AF19667B1300D9C975 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D05ED3B119667B1300D9C975 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D05ED3B319667B1300D9C975 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D05ED3B719667B1300D9C975 /* MapExampleiOS7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapExampleiOS7-Info.plist"; sourceTree = "<group>"; };
+		D05ED3B919667B1300D9C975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D05ED3BB19667B1300D9C975 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D05ED3BD19667B1300D9C975 /* MapExampleiOS7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapExampleiOS7-Prefix.pch"; sourceTree = "<group>"; };
+		D05ED3BE19667B1300D9C975 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D05ED3BF19667B1300D9C975 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D05ED3C219667B1300D9C975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D05ED3C719667B1300D9C975 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D05ED3CD19667B1300D9C975 /* MapExampleiOS7Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapExampleiOS7Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D05ED3CE19667B1300D9C975 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D05ED3D619667B1300D9C975 /* MapExampleiOS7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapExampleiOS7Tests-Info.plist"; sourceTree = "<group>"; };
+		D05ED3D819667B1300D9C975 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D05ED3DA19667B1300D9C975 /* MapExampleiOS7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapExampleiOS7Tests.m; sourceTree = "<group>"; };
+		D05ED3EF1966831F00D9C975 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		D05ED3F01966831F00D9C975 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		D05ED3F21966835600D9C975 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D05ED3F81966AD1D00D9C975 /* mapannotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapannotation.png; sourceTree = "<group>"; };
+		D05ED3FA1966AF1500D9C975 /* CustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnnotation.h; sourceTree = "<group>"; };
+		D05ED3FB1966AF1500D9C975 /* CustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnnotation.m; sourceTree = "<group>"; };
+		D05ED3FD1966BCF800D9C975 /* mapannotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mapannotation@2x.png"; sourceTree = "<group>"; };
+		D09EBD18196AAD7700D97365 /* PlaceDetailViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceDetailViewViewController.h; sourceTree = "<group>"; };
+		D09EBD19196AAD7700D97365 /* PlaceDetailViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceDetailViewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D05ED3A919667B1300D9C975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05ED3F31966835600D9C975 /* MapKit.framework in Frameworks */,
+				D05ED3B219667B1300D9C975 /* CoreGraphics.framework in Frameworks */,
+				D05ED3B419667B1300D9C975 /* UIKit.framework in Frameworks */,
+				D05ED3B019667B1300D9C975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05ED3CA19667B1300D9C975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05ED3CF19667B1300D9C975 /* XCTest.framework in Frameworks */,
+				D05ED3D119667B1300D9C975 /* UIKit.framework in Frameworks */,
+				D05ED3D019667B1300D9C975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D05ED3A319667B1300D9C975 = {
+			isa = PBXGroup;
+			children = (
+				D05ED3B519667B1300D9C975 /* MapExampleiOS7 */,
+				D05ED3D419667B1300D9C975 /* MapExampleiOS7Tests */,
+				D05ED3AE19667B1300D9C975 /* Frameworks */,
+				D05ED3AD19667B1300D9C975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D05ED3AD19667B1300D9C975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D05ED3AC19667B1300D9C975 /* MapExampleiOS7.app */,
+				D05ED3CD19667B1300D9C975 /* MapExampleiOS7Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D05ED3AE19667B1300D9C975 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D05ED3F21966835600D9C975 /* MapKit.framework */,
+				D05ED3AF19667B1300D9C975 /* Foundation.framework */,
+				D05ED3B119667B1300D9C975 /* CoreGraphics.framework */,
+				D05ED3B319667B1300D9C975 /* UIKit.framework */,
+				D05ED3CE19667B1300D9C975 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D05ED3B519667B1300D9C975 /* MapExampleiOS7 */ = {
+			isa = PBXGroup;
+			children = (
+				D05ED3BE19667B1300D9C975 /* AppDelegate.h */,
+				D05ED3BF19667B1300D9C975 /* AppDelegate.m */,
+				D05ED3C119667B1300D9C975 /* Main.storyboard */,
+				D05ED3EF1966831F00D9C975 /* MapViewController.h */,
+				D05ED3F01966831F00D9C975 /* MapViewController.m */,
+				D05ED3FA1966AF1500D9C975 /* CustomAnnotation.h */,
+				D05ED3FB1966AF1500D9C975 /* CustomAnnotation.m */,
+				D09EBD18196AAD7700D97365 /* PlaceDetailViewViewController.h */,
+				D09EBD19196AAD7700D97365 /* PlaceDetailViewViewController.m */,
+				D05ED3C719667B1300D9C975 /* Images.xcassets */,
+				D05ED3B619667B1300D9C975 /* Supporting Files */,
+			);
+			path = MapExampleiOS7;
+			sourceTree = "<group>";
+		};
+		D05ED3B619667B1300D9C975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05ED3FD1966BCF800D9C975 /* mapannotation@2x.png */,
+				D05ED3F81966AD1D00D9C975 /* mapannotation.png */,
+				D05ED3B719667B1300D9C975 /* MapExampleiOS7-Info.plist */,
+				D05ED3B819667B1300D9C975 /* InfoPlist.strings */,
+				D05ED3BB19667B1300D9C975 /* main.m */,
+				D05ED3BD19667B1300D9C975 /* MapExampleiOS7-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D05ED3D419667B1300D9C975 /* MapExampleiOS7Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D05ED3DA19667B1300D9C975 /* MapExampleiOS7Tests.m */,
+				D05ED3D519667B1300D9C975 /* Supporting Files */,
+			);
+			path = MapExampleiOS7Tests;
+			sourceTree = "<group>";
+		};
+		D05ED3D519667B1300D9C975 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D05ED3D619667B1300D9C975 /* MapExampleiOS7Tests-Info.plist */,
+				D05ED3D719667B1300D9C975 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D05ED3AB19667B1300D9C975 /* MapExampleiOS7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05ED3DE19667B1300D9C975 /* Build configuration list for PBXNativeTarget "MapExampleiOS7" */;
+			buildPhases = (
+				D05ED3A819667B1300D9C975 /* Sources */,
+				D05ED3A919667B1300D9C975 /* Frameworks */,
+				D05ED3AA19667B1300D9C975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapExampleiOS7;
+			productName = MapExampleiOS7;
+			productReference = D05ED3AC19667B1300D9C975 /* MapExampleiOS7.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D05ED3CC19667B1300D9C975 /* MapExampleiOS7Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D05ED3E119667B1300D9C975 /* Build configuration list for PBXNativeTarget "MapExampleiOS7Tests" */;
+			buildPhases = (
+				D05ED3C919667B1300D9C975 /* Sources */,
+				D05ED3CA19667B1300D9C975 /* Frameworks */,
+				D05ED3CB19667B1300D9C975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D05ED3D319667B1300D9C975 /* PBXTargetDependency */,
+			);
+			name = MapExampleiOS7Tests;
+			productName = MapExampleiOS7Tests;
+			productReference = D05ED3CD19667B1300D9C975 /* MapExampleiOS7Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D05ED3A419667B1300D9C975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Synoverge;
+				TargetAttributes = {
+					D05ED3CC19667B1300D9C975 = {
+						TestTargetID = D05ED3AB19667B1300D9C975;
+					};
+				};
+			};
+			buildConfigurationList = D05ED3A719667B1300D9C975 /* Build configuration list for PBXProject "MapExampleiOS7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D05ED3A319667B1300D9C975;
+			productRefGroup = D05ED3AD19667B1300D9C975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D05ED3AB19667B1300D9C975 /* MapExampleiOS7 */,
+				D05ED3CC19667B1300D9C975 /* MapExampleiOS7Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D05ED3AA19667B1300D9C975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05ED3C819667B1300D9C975 /* Images.xcassets in Resources */,
+				D05ED3BA19667B1300D9C975 /* InfoPlist.strings in Resources */,
+				D05ED3FE1966BCF800D9C975 /* mapannotation@2x.png in Resources */,
+				D05ED3C319667B1300D9C975 /* Main.storyboard in Resources */,
+				D05ED3F91966AD1D00D9C975 /* mapannotation.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05ED3CB19667B1300D9C975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05ED3D919667B1300D9C975 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D05ED3A819667B1300D9C975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05ED3C019667B1300D9C975 /* AppDelegate.m in Sources */,
+				D05ED3F11966831F00D9C975 /* MapViewController.m in Sources */,
+				D09EBD1A196AAD7700D97365 /* PlaceDetailViewViewController.m in Sources */,
+				D05ED3BC19667B1300D9C975 /* main.m in Sources */,
+				D05ED3FC1966AF1500D9C975 /* CustomAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D05ED3C919667B1300D9C975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D05ED3DB19667B1300D9C975 /* MapExampleiOS7Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D05ED3D319667B1300D9C975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D05ED3AB19667B1300D9C975 /* MapExampleiOS7 */;
+			targetProxy = D05ED3D219667B1300D9C975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D05ED3B819667B1300D9C975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05ED3B919667B1300D9C975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D05ED3C119667B1300D9C975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05ED3C219667B1300D9C975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D05ED3D719667B1300D9C975 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D05ED3D819667B1300D9C975 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D05ED3DC19667B1300D9C975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D05ED3DD19667B1300D9C975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D05ED3DF19667B1300D9C975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapExampleiOS7/MapExampleiOS7-Prefix.pch";
+				INFOPLIST_FILE = "MapExampleiOS7/MapExampleiOS7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D05ED3E019667B1300D9C975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapExampleiOS7/MapExampleiOS7-Prefix.pch";
+				INFOPLIST_FILE = "MapExampleiOS7/MapExampleiOS7-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D05ED3E219667B1300D9C975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapExampleiOS7.app/MapExampleiOS7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapExampleiOS7/MapExampleiOS7-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MapExampleiOS7Tests/MapExampleiOS7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D05ED3E319667B1300D9C975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MapExampleiOS7.app/MapExampleiOS7";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapExampleiOS7/MapExampleiOS7-Prefix.pch";
+				INFOPLIST_FILE = "MapExampleiOS7Tests/MapExampleiOS7Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D05ED3A719667B1300D9C975 /* Build configuration list for PBXProject "MapExampleiOS7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05ED3DC19667B1300D9C975 /* Debug */,
+				D05ED3DD19667B1300D9C975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05ED3DE19667B1300D9C975 /* Build configuration list for PBXNativeTarget "MapExampleiOS7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05ED3DF19667B1300D9C975 /* Debug */,
+				D05ED3E019667B1300D9C975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D05ED3E119667B1300D9C975 /* Build configuration list for PBXNativeTarget "MapExampleiOS7Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05ED3E219667B1300D9C975 /* Debug */,
+				D05ED3E319667B1300D9C975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D05ED3A419667B1300D9C975 /* Project object */;
+}
